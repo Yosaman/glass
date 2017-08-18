@@ -1,0 +1,127 @@
+nav {
+  background-color: #F2EBE6;
+  box-shadow: none; }
+
+#header {
+  background-color: #F2EBE6; }
+  #header nav {
+    min-height: 100px; }
+  #header .brand-logo {
+    vertical-align: middle; }
+  #header img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto; }
+  #header .col a {
+    color: #A87C57;
+    padding-bottom: 200px; }
+  #header #header_padding {
+    padding-bottom: 200px; }
+
+#special_offers {
+  position: relative;
+  top: -50px; }
+  #special_offers .l7, #special_offers .l11 {
+    display: inline-block;
+    position: relative; }
+  #special_offers img {
+    width: 100%; }
+  #special_offers .text_on_img {
+    width: 200px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 1px black; }
+    #special_offers .text_on_img button {
+      width: 200px;
+      border: 2px solid #DED9D3;
+      background: none;
+      margin-top: 20px;
+      padding: auto;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+  #special_offers .on_left {
+    right: 60px;
+    bottom: 240px; }
+  #special_offers .on_right {
+    left: 60px;
+    bottom: 60px; }
+  #special_offers .text_under_img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    min-height: 100px;
+    margin-top: 20px;
+    border: 1px solid #A87C57;
+    font-size: 30px; }
+
+#bestsellers .row .glass {
+  display: inline-block;
+  position: relative; }
+  #bestsellers .row .glass:hover button {
+    visibility: visible; }
+  #bestsellers .row .glass:hover .price_with_tax {
+    display: inherit; }
+  #bestsellers .row .glass:hover .glass_name {
+    margin-bottom: 15px; }
+  #bestsellers .row .glass button {
+    visibility: hidden;
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+    background: none;
+    border: 20px solid #F2EBE6;
+    color: #F2EBE6;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 450px;
+    vertical-align: bottom; }
+  #bestsellers .row .glass img {
+    width: 90%;
+    margin-left: 3%;
+    display: block;
+    position: absolute;
+    top: 30px; }
+  #bestsellers .row .glass p {
+    text-align: center; }
+  #bestsellers .row .glass .glass_name {
+    color: #A87C57;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  #bestsellers .row .glass .price_with_tax {
+    display: none;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 10px; }
+  #bestsellers .row .glass .price {
+    color: black;
+    font-size: 40px; }
+#bestsellers .load_btn {
+  color: black;
+  border: 1px solid grey;
+  width: 20%;
+  background: none;
+  margin: 40px 40%;
+  padding: auto;
+  padding-top: 10px;
+  padding-bottom: 15px; }
+  #bestsellers .load_btn i {
+    position: relative;
+    top: 6px; }
+
+.page-footer {
+  background: #F2EBE6;
+  min-height: 200px;
+  font-size: 20px;
+  color: #A87C57; }
+  .page-footer .row {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #A87C57; }
+  .page-footer .footer-copyright {
+    background-color: inherit; }
+
+/*# sourceMappingURL=main.css.map */
